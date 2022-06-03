@@ -1,0 +1,23 @@
+Credit to 
+--------------
+Code with Tomi channel
+
+https://www.youtube.com/watch?v=IpAk1Eu52GU
+https://www.youtube.com/watch?v=ynyk1z8NLr8
+
+Syntax and other info
+------------------------
+1.conda create --name DjangoChatEnv python=3.6
+
+2.activate DjangoChatEnv
+
+3.pip install django
+
+4.used Ajax to initiate data fetching from DB
+
+5.created management and command folders in the app folder
+and created __init__.py files in it. Created a purge_old_data.py file to delete data
+This file can be executed by calling it in the command prompt like 
+
+python manage.py purge_old_data
+
